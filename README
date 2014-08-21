@@ -1,0 +1,2 @@
+A gadget that can detect double printed words like "the" in "This is THE THE word."
+If you confirm this is a mistake you made, you simply say "yes" to remove one word and fix the problem, otherwise say "no" to keep as-it.
