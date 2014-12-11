@@ -1,0 +1,13 @@
+body {
+  background-color: #F0F8FF;
+}
+
+#inputfile {
+  float: left;
+  width: 50%;
+}
+
+#outputfile {
+  float: right;
+  width: 50%;
+}

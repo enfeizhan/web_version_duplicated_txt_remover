@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+  <head>
+    <link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="textop.js"></script>
+    <title>Duplicated Text Remover</title>
+  </head>
+  <body>
+    <h1>Annoyed by double typings?</h1>
+    <div>
+      <p>
+        "Ops! Another double typed 'the'." Have you ever encountered this situation after you have printed your thesis for submission?
+        To avoid this, you need to stare at your text word by word until you have sore eyes. Unfortunately, even effort like this can't be
+        100% useful.      
+      </p>   
+      <p>
+        Duplicated Text Remover can help you <button id="submit">Remove Double Typings</button>.
+      </p>
+    </div>
+    <div>
+      <div id="inputfile">
+        <p>Your text to be proof read:</p>
+        <textarea id="textinput" name="textinputContent" rows="20" cols="70"></textarea>
+      </div>
+<!--region for inputting text-->
+      <div id="outputfile">
+        <p>Your text that has been proof read:</p>
+        <textarea id="textoutput" name="textoutputContent" rows="20" cols="70"></textarea>
+      </div>
+<!--region for outputting text-->
+    </div>
+  </body>
+</html>
