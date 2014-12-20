@@ -18,7 +18,17 @@ $(document).ready(function(){
 	}else
 	{
 	  // double-typing
-	  presentWord = "";
+	  var removeConfirm = confirm("Remove the double-typed word \"" + presentWord +"\" in \"" + previousWord + " " + presentWord + "\"?");
+	  if (removeConfirm == true)
+	  {
+	    presentWord = "";
+	    // yes I wanna remove the duplicated text
+	  } else {
+	    // no 
+	    textOutput = textOutput + presentWord + " ";
+	    previousWord = presentWord;
+	    presentWord = "";
+	  }	  
 	}
       }else if (textContent[i] == "\n")
       {
