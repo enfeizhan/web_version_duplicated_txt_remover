@@ -72,6 +72,5 @@ function remove()
         // add the last word
         textOutput = textOutput + presentWord;
     }
-    console.log(textOutput)
     document.getElementById("textoutput").innerHTML = textOutput;
 }
