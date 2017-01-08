@@ -5,6 +5,7 @@
     <script type="text/javascript" src="textop.js"></script>
     <title>Duplicated Text Remover</title>
   </head>
+
   <body>
     <h1>Annoyed by double typings?</h1>
     <div>
@@ -14,20 +15,22 @@
         100% useful.      
       </p>   
       <p>
-        Duplicated Text Remover can help you <button id="submit">Remove Double Typings</button>.
+        Duplicated Text Remover can help you <button type="button" onclick="remove()">Remove Double Typings</button>.
       </p>
     </div>
     <div>
+      <!--region for inputting text-->
       <div id="inputfile">
         <p>Your text to be proof read:</p>
         <textarea id="textinput" name="textinputContent" rows="20" cols="70"></textarea>
       </div>
-<!--region for inputting text-->
+
+      <!--region for outputting text-->
       <div id="outputfile">
         <p>Your text that has been proof read:</p>
-        <textarea id="textoutput" name="textoutputContent" rows="20" cols="70"></textarea>
+        <p id="textoutput"></textarea>
       </div>
-<!--region for outputting text-->
     </div>
   </body>
+
 </html>
